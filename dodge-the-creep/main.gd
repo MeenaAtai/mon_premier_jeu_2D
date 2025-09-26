@@ -45,12 +45,11 @@ func _on_mob_timer_timeout() -> void:
 
 	# Spawn the mob by adding it to the Main scene.
 	add_child(mob)
-	pass # Replace with function body.
+
 
 func _on_score_timer_timeout() -> void:
 	score += 1
 	$hud.update_score(score)
-	pass # Replace with function body.
 	
 func _on_start_timer_timeout() -> void:
 	$MobTimer.start()
